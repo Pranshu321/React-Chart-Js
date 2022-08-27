@@ -3,7 +3,6 @@ import Barchart from './Charts/Barchart';
 import DonutChart from './Charts/DonutChart';
 import LineCharts from './Charts/LineChart';
 import PieChart from './Charts/PieChart';
-import './App.test';
 
 function App() {
   return (
