@@ -3,12 +3,14 @@ import Barchart from './Charts/Barchart';
 import DonutChart from './Charts/DonutChart';
 import LineCharts from './Charts/LineChart';
 import PieChart from './Charts/PieChart';
+import './App.test';
 
 function App() {
   return (
     <>
     <div className='App'>
-    <h2 style={{marginTop: "90px"}} >Barchart</h2>
+
+    <h2 style={{ marginTop: "90px"}} >   Barchart</h2>
     <Barchart />
     <h2 style={{marginTop: "90px"}}>Donut Chart</h2>
     <DonutChart />
